@@ -1,12 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>README</title>
-</head>
-<body>
-<h1>Скрипты Торгового Бота Бинанс</h1>
+<h1>Скрипты Торгового Бота</h1>
 <p>Этот репозиторий содержит скрипты для автоматической торговли криптовалютами с использованием Binance API.</p>
 
 <h2>Включенные файлы</h2>
@@ -26,36 +18,28 @@
 </ul>
 
 <h2>Установка и Настройка на macOS</h2>
-<ol>
-    <li>Откройте терминал и клонируйте репозиторий на ваш компьютер:</li>
-    <pre><code>git clone https://github.com/swer4ock/binance-autotreiding.git</code></pre>
+
+    Откройте терминал и клонируйте репозиторий на ваш компьютер:
+    git clone https://github.com/swer4ock/binance-autotreiding.git
     
-    <li>Перейдите в директорию проекта:</li>
-    <pre><code>cd binance-autotreiding</code></pre>
+    Перейдите в директорию проекта:<br>
+    cd binance-autotreiding
 
-    <li>Убедитесь, что на вашем компьютере установлен Python 3.x. Если он не установлен, вы можете установить его с помощью Homebrew:</li>
-    <pre><code>brew install python</code></pre>
+   Убедитесь, что на вашем компьютере установлен Python 3.x. Если он не установлен, вы можете установить его с помощью Homebrew:
+  <code>brew install python</code>
 
-    <li>Создайте и активируйте виртуальное окружение (рекомендуется для изоляции зависимостей):</li>
-    <pre><code>
-    python3 -m venv venv
-    source venv/bin/activate
-    </code></pre>
+    Создайте и активируйте виртуальное окружение (рекомендуется для изоляции зависимостей):
+    
+    python3 -m venv venv source venv/bin/activate
 
-    <li>Установите необходимые библиотеки:</li>
-    <pre><code>
+    Установите необходимые библиотеки:
     pip install python-binance
-    </code></pre>
 
-    <li>При необходимости отредактируйте настройки в скриптах, такие как API-ключи и параметры торговли.</li>
+    При необходимости отредактируйте настройки в скриптах, такие как API-ключи и параметры торговли.
 
-    <li>Запустите нужный скрипт с помощью следующей команды:</li>
-    <pre><code>python3 stakan.py</code></pre>
+    Запустите нужный скрипт с помощью следующей команды:
+    python3 stakan.py
+
+
     
-    <li>BASE_ASSET = 'BTC' и QUOTE_ASSET = 'USDT' выбираете опционально, допустим запуск нескольких программ в паралели</li>
-    <pre><code>python3 start_btcrub.py</code></pre>
-    
-    <p>Если у вас есть вопросы или предложения, пожалуйста, свяжитесь со мной через <a href="https://t.me/Marselito1">Telegram</a>.</p>
-</ol>
-</body>
-</html>
+Если у вас есть вопросы или предложения, пожалуйста, свяжитесь со мной через <a href="https://t.me/Marselito1">Telegram</a>
